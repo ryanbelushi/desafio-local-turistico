@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+:root {
+    font-family: 'Open Sans', serif;
+}
+
+body {
+    background-color: #F5F4F0;
+}
+
+.container {
+    width: 1120px;
+    margin: 88px auto 65px;
+}
+
+.informativo p {
+    display: inline-block;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    color: #E1624F;
+    font-weight: bold;
+}
+
+h1 {
+    padding-bottom: 40px;
+    color: #1E1E1E;
+    font-size: 36px;
+}
+
+.busan:first-of-type img {
+    padding-bottom: 24px;
+}
+
+.busan p {
+    padding-bottom: 104px;
+}
+
+.amantes-historia h2 {
+    padding-bottom: 8px;
+    font-size: 32px;
+}
+
+.amantes-historia:nth-child(3){
+    padding-bottom: 64px;
+}
+
+.titulo-templo {
+    padding-bottom: 4px;
+    font-size: 28px;
+}
+
+.paragrafo-templo {
+    padding-bottom: 40px;
+}
+
+p {
+    color: #333333;
+}
+
+.sub {
+    font-weight: bold;
+}
+
+.subtitle {
+    text-align: center;
+    font-style: italic;
+}
+
+ul li {
+    font-weight: bold;
+}
+
+.templo-haedong li > p,
+.templo-beomeo > ul > li > p {
+    color: #0C51A7;
+    padding-bottom: 48px;
+}
+
+.templos img {
+    padding-bottom: 20px;
+}
+
+.parque-yong ul li:nth-child(1) p {
+    color: #591B98;
+}
+
+.parque-yong ul li:nth-child(2) p {
+    color: #E5245E;
+}
+
+.parque-yong ul li:nth-child(3) p {
+    color: #E95E10;
+    padding-bottom: 80px;
+}
+
+.ultimo-paragrafo {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
+}
